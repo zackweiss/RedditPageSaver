@@ -1,0 +1,55 @@
+/* popup.css */
+
+/* Style for the entire popup */
+body {
+    width: 350px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style for the header */
+  h2 {
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Style for the "Save Current Page" button */
+  #saveButton {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style for the saved URLs list */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Style for each saved URL item */
+  li.saved-url-item {
+    margin-top: 10px;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style for the delete button */
+  button.delete-button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 3px 6px;
+    font-size: 12px;
+  }
+  
+    
